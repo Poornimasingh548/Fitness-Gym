@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Now - Fill your details</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-size: cover;
+            background-color: rgb(106, 106, 106);
+
+        }
+        .container{
+            background-color: black;
+            color: rgb(255, 255, 255);
+            display: inline-block;
+            width: 500px;
+            height: 600px;
+            border-radius: 20px;
+            text-align: center;
+            margin-left: 33.3%;
+            margin-top: 40px;
+            justify-content: center;
+        }
+        
+        label{
+            font-size: 25px;
+        }
+        .container h1{
+            font-size: 50px;
+            text-align: center;
+            color: rgb(217, 215, 215);
+        }
+
+        .main .input{
+            display: block;
+            height: 30px;
+            width: 340px;
+            margin: 15px 70px;
+            border: none;
+            background-color: black;
+            font-size: 20px;
+            color: white;
+            outline: none;
+            border-bottom: 3px solid rgb(251, 187, 24);
+        }
+        textarea{
+            width: 350px;
+            height: 90px;
+            margin: 20px 70px;
+            background-color: black;
+            border: 2px solid rgb(73, 72, 72);
+            font-size: 17px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .main input{
+            margin: 0;
+        }
+        button{
+            padding: 10px 42px;
+            margin: 0px 19px;
+            background-color: rgb(244, 175, 0);
+            font-size: 18px;
+            border-radius: 30px;
+            border: none;
+        }
+        button:hover{
+            transform: scale(1.1);
+            transition: 0.5s;
+        }
+        #option{
+            background-color: black;
+            color: white;
+        }
+        select{
+            background-color: black;
+            color: white;
+            width: 100px;
+            height: 20px;
+            font-size: 15px;
+            text-align: center;
+            border: 1px solid white;
+        }
+        body a img{
+            position: absolute;
+            margin: 20px;
+            background-color: black;
+            padding: 20px;
+            border-radius: 30px;
+            filter: invert(10%);
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html"><img src="home.png" width="40px"></a>
+    <div class="container">
+        <div class="main">
+            <form>
+            <h1>Register</h1>
+            <input class="input" type="text" placeholder="Enter your name">
+            <br>
+            <input class="input" type="email" placeholder="Enter your Email">
+            <br>
+            <input class="input" type="number" placeholder="Phone no.">
+            <br>
+            <div>
+                <label>Select Your Area</label>
+            <select>
+                <option id="option">Mandawali</option>
+                <option id="option">Mayur Vihar</option>
+                <option id="option">Preet Vihar</option>
+            </select>
+            </div>
+            <textarea placeholder="Comment here for more Information"></textarea>
+            <br>
+            <button>Submit</button>
+            <button>Reset</button>
+        </form>
+        </div>
+    </div>
+    
+</body>
+</html>
